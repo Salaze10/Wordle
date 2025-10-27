@@ -1,8 +1,17 @@
 CS-125 Wordle Project
 
 Functions:
-1. menu page
+1. menu - also main function
+	define every variables:
+		char big arr (master word list)
+		char answer
+		char guess
+		char yellows[size]
+		char guess
+
 2. generate 5 letter goal word
+	void use pointer to master word like and answer
+	update 
 3. check if input is a word
 	change to lower case
 	how to optimize?
@@ -17,3 +26,9 @@ Function Assignments:
 Emilina - 1,5,7
 Christopher - 2,3
 Max - 4,6
+
+flow chart:
+	Menu -> I/O -> gen word(*big arr, *ans) -> output to terminal -> leads to guess -> error check guess
+	-> int check if word(*guess, *big arr) return 1 for true 0 for false -> int check letter (*guess, *answer, *yellows) 
+	-> int check right spot(*answer, *yellows) return null array with letters that are in right spot -> output(*guess, *yellows, *greens)
+while loop starting after gen word ending at output	
