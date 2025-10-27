@@ -1,0 +1,19 @@
+CS-125 Wordle Project
+
+Functions:
+1. menu page
+2. generate 5 letter goal word
+3. check if input is a word
+	change to lower case
+	how to optimize?
+4. check if inputted letters are in the word - change to orange if yes
+5. check if inputted letters are in the right spot 
+6. generate input/output
+7. error checking 
+8. difficulty modes? 
+
+
+Function Assignments:
+Emilina - 1,5,7
+Christopher - 2,2
+Max - 4,6
